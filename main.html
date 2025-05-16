@@ -6,26 +6,31 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body type="submit">
+<body>
 	<!-- the entire body must be written by student -->
-	<label>Name</label>
+	<label for="Name" >Name*</label>
 	        <input type"tex" id="name" placeholder="Name"/><br>
-	<label for="Email">Email</label>
+	<label for="Email">Email*</label>
 	        <input type="Email" id="email" placeholder="Email"/><br>
-	<label for="Gender">Gender</label>
+	<label for="Gender">Gender*</label>
 	        <input type="radio" id="male"/>M
 	        <input type="radio" id="femal"/>F<br>
-	<label for="Car Brancd">Car Brand</laber>
-	        <input type="select" id="cars" placeholder="Please choose an option"/><br>
-	<label for="Age">Age</label>
+	<label for="Car Brancd">Car Brand*</laber>
+          <select name="cars" id="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+          </select><br>
+	<label for="Age">Age*</label>
 		    <input type="Number" id="age" placeholder="Age"/><br>
-	<label for="DOB">DOB</label>
+	<label for="DOB">DOB*</label>
 		    <input type="Date" id="dob"/><br>
-	<label for="Phone Number">Phone Number</label>
+	<label for="Phone Number">Phone Number*</label>
 		    <input type="tel" id="tel" placeholder="xxx-xxx-xxxx"/><br>
-	<label for="Password">Password</label>
+	<label for="Password">Password*</label>
 		   <input type="password" id="password" placeholder="Password"/><br>
-	<label for="I agree to the TOS">I agree to the TOS</label>
+	<label for="I agree to the TOS">I agree to the TOS*</label>
 		  <input type="checkbox" id="tos"/>
     <script type="text/javascript" src="./script.js">
 </script>
